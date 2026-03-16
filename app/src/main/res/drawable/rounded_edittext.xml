@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background color using theme-aware color -->
+    <solid android:color="?attr/colorOnPrimary"/>
+
+    <!-- Border -->
+    <stroke
+        android:width="2dp"
+        android:color="?attr/colorOnPrimary"
+        android:background="@drawable/edittext_border"/>
+
+    <!-- Corner radius -->
+    <corners android:radius="16dp" />
+
+    <!-- Optional padding -->
+    <padding
+        android:left="12dp"
+        android:top="12dp"
+        android:right="12dp"
+        android:bottom="12dp" />
+</shape>

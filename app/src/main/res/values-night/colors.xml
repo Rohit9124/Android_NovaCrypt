@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="edittext_background_color">#121212</color>
+    <color name="edittext_border_color">#888888</color>
+    <color name="edittext_text_color">#FFFFFF</color>
+    <color name="edittext_hint_color">#BBBBBB</color>
+    <color name="text_glow_light">#8692F7</color>
+    <color name="text_glow_dark">#584B71</color>
+    <color name="text_stroke">#FFFFFF</color>
+
+
+
+</resources>

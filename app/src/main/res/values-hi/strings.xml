@@ -1,0 +1,160 @@
+<resources>
+    <string name="secure_image_sharing_platform">सुरक्षित मंच</string>
+
+
+
+    <string name="about_us_fragment">अबाउट अस फ्रैगमेंट</string>
+    <string name="home_fragment">होम फ्रैगमेंट</string>
+    <string name="share_fragment">शेयर फ्रैगमेंट</string>
+    <string name="feature_title">फ़ीचर शीर्षक</string>
+    <string name="feature_description">फ़ीचर विवरण यहां दिखाई देगा</string>
+    <string name="example_user">user@example.com</string>
+    <string name="rating_star">⭐ 4.5</string>
+    <string name="review_comment">बहुत बढ़िया ऐप! बहुत सुरक्षित।</string>
+    <string name="guest">अतिथि</string>
+
+
+
+    <string name="pref_use_biometric_title">बायोमेट्रिक फिंगरप्रिंट</string>
+    <string name="pref_use_biometric_summary">ON करने पर, डिक्रिप्शन से पहले फिंगरप्रिंट मांगा जाएगा</string>
+    <string name="biometric_prompt_title">फिंगरप्रिंट की पुष्टि करें</string>
+    <string name="biometric_prompt_subtitle">डिक्रिप्शन के लिए फिंगरप्रिंट आवश्यक है</string>
+    <string name="biometric_not_enrolled">कोई बायोमेट्रिक दर्ज नहीं है — कृपया सिस्टम सेटिंग्स में फिंगरप्रिंट जोड़ें</string>
+
+
+    <string name="pref_about_title">हमारे बारे में</string>
+    <string name="pref_about_summary">इस ऐप के बारे में और जानें</string>
+
+    <string name="change_password">पासवर्ड बदलें</string>
+
+    <string name="private_folder">निजी फ़ोल्डर</string>
+    <!-- App Name -->
+    <string name="app_name">NovaCrypt</string>
+
+    <string name="encrypt_text_1">पाठ एन्क्रिप्ट करें</string>
+    <string name="protect_your_messages">अपने संदेश सुरक्षित रखें</string>
+    <string name="encrypt_image_1">चित्र एन्क्रिप्ट करें</string>
+    <string name="keep_your_photos_safe">अपनी तस्वीरें सुरक्षित रखें</string>
+    <string name="encrypt_file_1">फ़ाइल एन्क्रिप्ट करें</string>
+    <string name="secure_your_documents">अपने दस्तावेज़ सुरक्षित करें</string>
+    <string name="novacrypt_secure_your_world">नोवाक्रिप्ट — अपनी दुनिया सुरक्षित करें</string>
+    <string name="update_your_password">अपना पासवर्ड अपडेट करें</string>
+    <string name="encryption_statistics">एन्क्रिप्शन आँकड़े</string>
+    <string name="view_total_encryptions_and_decryptions">कुल एन्क्रिप्शन और डीक्रिप्शन देखें</string>
+
+    <string name="encrypt_text">पाठ एन्क्रिप्ट करें</string>
+    <string name="decrypt_text">पाठ डिक्रिप्ट करें</string>
+    <string name="enter_text_to_encrypt">एन्क्रिप्ट करने के लिए पाठ दर्ज करें</string>
+    <string name="encrypt">एन्क्रिप्ट करें</string>
+    <string name="cipher_text_base64">सिफर टेक्स्ट (Base64)</string>
+    <string name="copy">कॉपी करें</string>
+    <string name="share">साझा करें</string>
+    <string name="paste_cipher_text_base64">सिफर टेक्स्ट (Base64) पेस्ट करें</string>
+    <string name="enter_key">कुंजी दर्ज करें</string>
+    <string name="decrypt">डिक्रिप्ट करें</string>
+    <string name="plain_text">साधारण पाठ</string>
+    <string name="your_plain_output_will_appear_here">आपका साधारण आउटपुट यहाँ दिखाई देगा</string>
+    <string name="add_to_private">प्राइवेट में जोड़ें</string>
+    <string name="theme">थीम</string>
+    <string name="language">भाषा</string>
+    <string name="nav_home">होम</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    <string name="nav_share">साझा करें</string>
+    <string name="nav_rate">रेट करें</string>
+    <string name="nav_logout">लॉग आउट</string>
+    <string name="open_nav">नेविगेशन खोलें</string>
+    <string name="close_nav">नेविगेशन बंद करें</string>
+    <string name="settings_title">सेटिंग्स शीर्षक</string>
+    <string name="encryption_key">एन्क्रिप्शन कुंजी</string>
+    <string name="encrypt_image">चित्र एन्क्रिप्ट करें</string>
+    <string name="decrypt_image">चित्र डिक्रिप्ट करें</string>
+    <string name="upload_image">चित्र अपलोड करें</string>
+    <string name="encrypt_image_2">चित्र एन्क्रिप्ट करें</string>
+    <string name="key">कुंजी:</string>
+    <string name="enter_key_1">कुंजी दर्ज करें</string>
+    <string name="encrypted_n_image">एन्क्रिप्टेड: \n चित्र</string>
+    <string name="upload_encrypted_image">एन्क्रिप्टेड चित्र अपलोड करें</string>
+    <string name="enter_key_2">कुंजी दर्ज करें</string>
+    <string name="decrypt_image_1">चित्र डिक्रिप्ट करें</string>
+    <string name="encrypt_file">फ़ाइल एन्क्रिप्ट करें</string>
+    <string name="decrypt_file">फ़ाइल डिक्रिप्ट करें</string>
+    <string name="upload_file">फ़ाइल अपलोड करें</string>
+    <string name="no_file_selected">कोई फ़ाइल चयनित नहीं</string>
+    <string name="key_1">कुंजी:</string>
+    <string name="encryption_key_1">एन्क्रिप्शन कुंजी</string>
+    <string name="encrypt_file_2">फ़ाइल एन्क्रिप्ट करें</string>
+    <string name="file_encrypted_successfully">फ़ाइल सफलतापूर्वक एन्क्रिप्ट हुई!</string>
+    <string name="upload_encrypted_file">एन्क्रिप्टेड फ़ाइल अपलोड करें</string>
+    <string name="enter_key_3">कुंजी दर्ज करें</string>
+    <string name="decrypt_file_1">फ़ाइल डिक्रिप्ट करें</string>
+    <string name="file_decrypted_successfully">फ़ाइल सफलतापूर्वक डिक्रिप्ट हुई!</string>
+    <string name="open_file">फ़ाइल खोलें</string>
+    <string name="current_password">वर्तमान पासवर्ड</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="confirm_new_password">नए पासवर्ड की पुष्टि करें</string>
+    <string name="change_password_1">पासवर्ड बदलें</string>
+    <string name="quick_guide">
+    <![CDATA[
+        <b>त्वरित मार्गदर्शिका :</b><br><br>
+        1) मुख्य मेनू से <b>Encrypt Image</b> या <b>Decrypt Image</b> चुनें।<br>
+        2) <b>एन्क्रिप्शन</b> के लिए: एक इमेज अपलोड करें → <b>Encrypt</b> दबाएँ → एक गुप्त कुंजी बनाई जाएगी।<br>
+        3) आप एन्क्रिप्टेड इमेज और गुप्त कुंजी को कॉपी, डाउनलोड या साझा कर सकते हैं।<br>
+        4) <b>डिक्रिप्शन</b> के लिए: एन्क्रिप्टेड इमेज अपलोड करें और वही गुप्त कुंजी दर्ज करें।<br>
+        5) यदि सेटिंग्स में बायोमेट्रिक सक्षम है, तो डिक्रिप्शन के लिए प्रमाणीकरण आवश्यक होगा।<br>
+        6) डिक्रिप्टेड इमेज <b>30 सेकंड की समय सीमा</b> के साथ दिखाई जाएगी।<br>
+        7) आप डिक्रिप्टेड इमेज को <b>निजी फ़ोल्डर</b> में भी सहेज सकते हैं।
+    ]]>
+</string>
+    <string name="quick_guide_text">
+    <![CDATA[
+        <b>📖 त्वरित मार्गदर्शिका</b><br><br>
+        1) मुख्य मेनू से <b>Encrypt</b> या <b>Decrypt</b> चुनें।<br>
+        2) <b>एन्क्रिप्शन</b> के लिए → अपना <b>पाठ</b> और एक <b>पासवर्ड</b> दर्ज करें।<br>
+        3) <b>Encrypt</b> दबाएँ और सिफर टेक्स्ट प्राप्त करें।<br>
+        4) <b>डिक्रिप्शन</b> के लिए → सिफर और पासवर्ड पेस्ट करें।<br>
+        5) यदि सेटिंग्स में बायोमेट्रिक सक्षम है, तो डिक्रिप्शन के लिए प्रमाणीकरण आवश्यक होगा।<br>
+        6) आप डिक्रिप्टेड टेक्स्ट को <b>निजी फ़ोल्डर</b> में भी सहेज सकते हैं।<br>
+        ⚠ गलत पासवर्ड डालने पर डिक्रिप्शन असफल हो जाएगा।<br>
+    ]]>
+</string>
+    <string name="quick_guide_file">
+    <![CDATA[
+        <b>📂 त्वरित मार्गदर्शिका :</b><br><br>
+        1) मुख्य मेनू से <b>Encrypt File</b> या <b>Decrypt File</b> चुनें।<br>
+        2) <b>एन्क्रिप्शन</b> के लिए : फ़ाइल अपलोड करें → पासवर्ड दर्ज करें → <b>Encrypt</b> दबाएँ।<br>
+        3) आप एन्क्रिप्टेड फ़ाइल को कॉपी/सहेज/साझा कर सकते हैं।<br>
+        4) <b>डिक्रिप्शन</b> के लिए : एन्क्रिप्टेड फ़ाइल अपलोड करें → पासवर्ड दर्ज करें → <b>Decrypt</b> दबाएँ।<br>
+        5) ⚠ गलत पासवर्ड डालने पर डिक्रिप्शन असफल हो जाएगा।<br>
+        6) यदि सेटिंग्स में बायोमेट्रिक सक्षम है, तो डिक्रिप्शन के लिए प्रमाणीकरण आवश्यक होगा।<br>
+        7) आप डिक्रिप्टेड फ़ाइलों को <b>निजी फ़ोल्डर</b> में भी सहेज सकते हैं।<br>
+    ]]>
+</string>
+
+    <string name="type_your_email_1">Type your Email</string>
+    <string name="type_your_password">Type Your Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered_yet_sign_up">Not Registered Yet , Sign Up !</string>
+    <string name="sign_in_with_fingerprint">Sign in with Fingerprint</string>
+    <string name="type_your_email_2">Type your Email</string>
+    <string name="type_your_password_1">Type Your Password</string>
+    <string name="retype_your_password">Retype Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_registered_sign_in">Already Registered? Sign In!</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

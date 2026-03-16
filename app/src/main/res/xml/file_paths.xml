@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Internal cache directory (used for temp encrypted/decrypted files) -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!-- App-specific external files directory -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <!-- Public Downloads folder (for saved encrypted files) -->
+    <external-path
+        name="download"
+        path="Download/" />
+
+    <!-- External cache directory (optional, safe) -->
+    <external-cache-path
+        name="apk_cache"
+        path="." />
+
+</paths>

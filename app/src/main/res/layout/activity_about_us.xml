@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <!-- 🔹 Toolbar with Back Button -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAbout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="?attr/colorOnPrimary" />
+
+    <!-- 🔹 Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Section: About -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔹 About NovaCrypt"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnBackground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="NovaCrypt is a modern security-focused Android application designed to help users protect sensitive data in a simple yet highly effective way. Built using Kotlin and Firebase, the app integrates military-grade AES-256 encryption with biometric authentication and private storage, ensuring complete protection of personal and professional information. NovaCrypt is designed not only to provide data confidentiality but also to enhance usability with a sleek interface, multi-language support, and intuitive navigation."
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:textColor="?attr/colorOnBackground" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="14dp"
+                android:background="?attr/colorOnSurface" />
+
+            <!-- Section: Key Features -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Key Features"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnBackground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="• AES-256 Encryption → Industry-standard, \n    military-grade security.\n• File, Image And Text Encryption → Multiple \n    modes for flexibility.\n• Biometric Authentication → Fingerprint/face \n    unlock for quick, secure access.\n• Private Storage → Store encrypted files inside a \n    secure folder.\n• Encryption Statistics → Track your encrypted \n    data activity.\n• Multi-Language Support → English, French, and \n    Hindi.\n• Feedback System → Built-in form for suggestions \n    and ratings.\n• Smooth UI → Modern animations, dark mode, \n    and custom design."
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:textColor="?attr/colorOnBackground" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="14dp"
+                android:background="?attr/colorOnSurface" />
+
+            <!-- Section: Security -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Security and Privacy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnBackground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="• AES-256 ensures strong data confidentiality and \n    integrity.\n• No plain-text storage of sensitive data anywhere.\n• Firebase Authentication to verify and secure \n    users.\n• Encryption keys are session-based and never \n    stored permanently.\n• Protection against unauthorized access and \n    screenshot capture.\n• Continuous updates to align with evolving \n    security standards."
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:textColor="?attr/colorOnBackground" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="14dp"
+                android:background="?attr/colorOnSurface" />
+
+            <!-- Section: How to Use -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" How to Use"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnBackground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="1. Sign in using your registered email and password, \n    or set up biometric login.\n2. Select whether to encrypt Text, Image, or File.\n3. Enter or upload your content and apply \n    encryption.\n4. Receive a secret key for secure access or sharing.\n5. To decrypt, provide the encrypted data and its \n    key.\n6. Store all sensitive content in the secure private \n    folder for safe access anytime."
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:textColor="?attr/colorOnBackground" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="14dp"
+                android:background="?attr/colorOnSurface" />
+
+            <!-- Section: Developer Info -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Developer Information"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnBackground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="• Application Name → NovaCrypt\n• Version → 1.0.0\n• Developer → Rohit Mankar\n• Email → rohitmankar1324@gmail.com\n• Tech Stack → Android (Kotlin), Firebase, FireStore \n    Database, AES-256 Encryption\n• Vision → To empower individuals with strong, \n    user-friendly tools to protect personal and \n    professional data."
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:textColor="?attr/colorOnBackground" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="14dp"
+                android:background="?attr/colorOnSurface" />
+
+            <!-- Section: Contact -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Contact And Support"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnBackground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="For feedback, suggestions, or support, please reach out via email at rohitmankar1324@gmail.com. We value your input to continuously improve NovaCrypt and deliver a more secure experience for all users."
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:textColor="?attr/colorOnBackground" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

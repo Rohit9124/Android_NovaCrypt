@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Theme -->
+    <Preference
+        android:key="theme"
+        android:title="@string/theme"
+        android:defaultValue="light"
+        android:summary="%s" />
+
+    <!-- Language -->
+    <Preference
+        android:key="language"
+        android:title="@string/language"
+        android:defaultValue="en"
+        android:summary="%s" />
+
+    <!-- Biometric unlock for decryption -->
+    <SwitchPreferenceCompat
+        android:key="pref_use_biometric"
+        android:title="@string/pref_use_biometric_title"
+        android:summary="@string/pref_use_biometric_summary"
+        android:defaultValue="false" />
+
+    <!-- Change Password -->
+    <Preference
+        android:key="pref_change_password"
+        android:title="@string/change_password"
+        android:summary="@string/update_your_password" />
+
+    <!-- Encryption & Decryption Stats -->
+    <Preference
+        android:key="pref_stats"
+        android:title="@string/encryption_statistics"
+        android:summary="@string/view_total_encryptions_and_decryptions" />
+
+    <Preference
+        android:key="pref_about"
+        android:title="@string/pref_about_title"
+        android:summary="@string/pref_about_summary" />
+
+</PreferenceScreen>

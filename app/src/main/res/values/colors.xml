@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue">#64B5F6</color>
+    <color name="lavender">#8692f7</color>
+    <color name="lavender_dark">#5A64C9</color>
+    <color name="onSurfaceVariant_light">#66000000</color> <!-- semi-transparent black -->
+    <color name="onSurfaceVariant_dark">#B3FFFFFF</color> <!-- semi-transparent white -->
+
+    <color name="edittext_background_color">#FFFFFF</color>
+    <color name="edittext_border_color">#CCCCCC</color>
+
+    <color name="edittext_text_color">#000000</color>
+    <color name="edittext_hint_color">#888888</color>
+
+
+
+    <color name="primary">#8692F7</color>
+    <color name="onPrimary">#FFFFFF</color>
+
+        <color name="secondary">#03DAC6</color>
+        <color name="onSecondary">#000000</color>
+
+        <color name="background">#FFFFFF</color>
+        <color name="onBackground">#000000</color>
+
+        <color name="surface">#FFFFFF</color>
+        <color name="onSurface">#000000</color>
+
+        <color name="error">#B00020</color>
+        <color name="onError">#FFFFFF</color>
+
+    <!-- Dark -->
+    <color name="primary_dark">#584B71</color>
+    <color name="onPrimary_dark">#FFFFFF</color> <!-- should be white -->
+
+    <color name="secondary_dark">#03DAC6</color>
+    <color name="onSecondary_dark">#FFFFFF</color> <!-- should be white -->
+
+    <color name="background_dark">#121212</color>
+    <color name="onBackground_dark">#FFFFFF</color>
+
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="onSurface_dark">#FFFFFF</color>
+
+    <color name="error_dark">#CF6679</color>
+    <color name="onError_dark">#FFFFFF</color> <!-- should be white -->
+
+    <color name="text_glow_light">#8692F7</color>
+    <color name="text_glow_dark">#584B71</color>
+    <color name="text_stroke">#FFFFFF</color>
+
+
+
+</resources>
+
+
+

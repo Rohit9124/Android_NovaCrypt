@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <!-- Use READ_MEDIA_IMAGES for Android 13+, READ/WRITE_EXTERNAL_STORAGE for backward compatibility -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:name=".Ui.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logonew"
+        android:label="NovaCrypt"
+        android:roundIcon="@mipmap/logonew"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+
+        <!-- Launcher Activity -->
+        <activity
+            android:name=".Ui.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Home Screen -->
+        <activity
+            android:name=".Ui.Home"
+            android:theme="@style/Theme.MyApplication"
+            android:exported="true" />
+
+        <!-- Settings -->
+        <activity
+            android:name=".Ui.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".Ui.MainActivity" />
+
+        <!-- About Us -->
+        <activity android:name=".Ui.AboutUsActivity" />
+
+        <!-- Encryption Activities -->
+        <activity android:name=".Encryption.TextEncryptionActivity" />
+        <activity android:name=".Encryption.ImageEncryptionActivity" />
+        <activity android:name=".Encryption.FileEncryptionActivity" />
+
+        <!-- Database -->
+        <activity android:name=".Database.FeedbackActivity" />
+
+        <!-- Authentication -->
+        <activity
+            android:name=".Authentication.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.SignUpActivity"
+            android:exported="false" />
+
+        <activity android:name=".ChangePasswordActivity"
+            android:exported="false" />
+
+        <activity android:name=".EncryptionStatsActivity"
+            android:exported="false" />
+
+        <activity android:name=".Storage.PrivateFolderActivity"
+            android:exported="false"/>
+
+
+
+
+        <!-- Preloaded Fonts -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

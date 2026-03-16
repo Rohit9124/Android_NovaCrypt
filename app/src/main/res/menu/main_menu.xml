@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Main navigation items -->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="@string/nav_home"
+            android:iconTint="?attr/colorOnSurface"
+            android:titleTextColor="?attr/colorOnPrimary" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="@string/nav_settings"
+            android:iconTint="?attr/colorOnSurface"
+            android:titleTextColor="?attr/colorOnPrimary" />
+
+        <item
+            android:id="@+id/nav_private_folder"
+            android:icon="@drawable/nav_private_folder"
+            android:title="@string/private_folder"
+            android:iconTint="?attr/colorOnSurface"
+            android:titleTextColor="?attr/colorOnPrimary" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/nav_share"
+            android:title="@string/nav_share"
+            android:iconTint="?attr/colorOnSurface"
+            android:titleTextColor="?attr/colorOnPrimary" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/nav_rate"
+            android:title="@string/nav_rate"
+            app:showAsAction="always"
+            android:iconTint="?attr/colorOnSurface"
+            android:titleTextColor="?attr/colorOnPrimary" />
+
+
+    </group>
+
+    <!-- Divider before Logout -->
+    <group android:id="@+id/logout_group">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/nav_logout"
+            android:title="@string/nav_logout"
+            android:iconTint="?attr/colorOnSurface"
+            android:titleTextColor="?attr/colorOnPrimary" />
+    </group>
+
+</menu>

@@ -1,0 +1,155 @@
+<resources>
+    <string name="secure_image_sharing_platform">Plateforme sécurisée de partage d\'images</string>
+
+
+
+
+
+    <string name="about_us_fragment">Fragment À propos</string>
+    <string name="home_fragment">Fragment Accueil</string>
+    <string name="share_fragment">Fragment Partager</string>
+    <string name="feature_title">Titre de la fonctionnalité</string>
+    <string name="feature_description">La description de la fonctionnalité apparaîtra ici</string>
+    <string name="example_user">user@example.com</string>
+    <string name="rating_star">⭐ 4.5</string>
+    <string name="review_comment">Super application ! Très sécurisée.</string>
+    <string name="guest">Invité</string>
+
+
+    <string name="pref_use_biometric_title">Empreinte biométrique</string>
+    <string name="pref_use_biometric_summary">Lorsqu’il est activé, l’application demandera une empreinte avant le déchiffrement</string>
+    <string name="biometric_prompt_title">Confirmez l’empreinte</string>
+    <string name="biometric_prompt_subtitle">Empreinte requise pour déchiffrer</string>
+    <string name="biometric_not_enrolled">Aucune donnée biométrique enregistrée — ajoutez une empreinte dans les paramètres système</string>
+
+
+    <string name="pref_about_title">À propos</string>
+    <string name="pref_about_summary">En savoir plus sur cette application</string>
+
+    <string name="private_folder">Dossier Privé</string>
+
+    <string name="change_password">Changer le mot de passe</string>
+
+    <!-- App Name -->
+    <string name="app_name">NovaCrypt</string>
+
+    <string name="encrypt_text_1">Chiffrer le texte</string>
+    <string name="protect_your_messages">Protégez vos messages</string>
+    <string name="encrypt_image_1">Chiffrer limage</string>
+    <string name="keep_your_photos_safe">Gardez vos photos en sécurité</string>
+    <string name="encrypt_file_1">Chiffrer le fichier</string>
+    <string name="secure_your_documents">Sécurisez vos documents</string>
+    <string name="novacrypt_secure_your_world">NovaCrypt — Sécurisez votre monde</string>
+    <string name="update_your_password">Mettre à jour votre mot de passe</string>
+    <string name="encryption_statistics">Statistiques de chiffrement</string>
+    <string name="view_total_encryptions_and_decryptions">Voir le total des chiffrages et déchiffrages</string>
+
+    <string name="encrypt_text">Chiffrer le texte</string>
+    <string name="decrypt_text">Déchiffrer le texte</string>
+    <string name="enter_text_to_encrypt">Entrez le texte à chiffrer</string>
+    <string name="encrypt">Chiffrer</string>
+    <string name="cipher_text_base64">Texte chiffré (Base64)</string>
+    <string name="copy">Copier</string>
+    <string name="share">Partager</string>
+    <string name="paste_cipher_text_base64">Coller le texte chiffré (Base64)</string>
+    <string name="enter_key">Entrez la clé</string>
+    <string name="decrypt">Déchiffrer</string>
+    <string name="plain_text">Texte en clair</string>
+    <string name="your_plain_output_will_appear_here">Votre sortie en clair apparaîtra ici</string>
+    <string name="add_to_private">Ajouter au privé</string>
+    <string name="theme">Thème</string>
+    <string name="language">Langue</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="nav_share">Partager</string>
+    <string name="nav_rate">Évaluer</string>
+    <string name="nav_logout">Déconnexion</string>
+    <string name="open_nav">Ouvrir la navigation</string>
+    <string name="close_nav">Fermer la navigation</string>
+    <string name="settings_title">Titre des paramètres</string>
+    <string name="encryption_key">Clé de chiffrement</string>
+    <string name="encrypt_image">Chiffrer limage</string>
+    <string name="decrypt_image">Déchiffrer limage</string>
+    <string name="upload_image">Téléverser limage</string>
+    <string name="encrypt_image_2">Chiffrer limage</string>
+    <string name="key">Clé :</string>
+    <string name="enter_key_1">Entrez la clé</string>
+    <string name="encrypted_n_image">Chiffré : \n Image</string>
+    <string name="upload_encrypted_image">Téléverser limage chiffrée</string>
+    <string name="enter_key_2">Entrez la clé</string>
+    <string name="decrypt_image_1">Déchiffrer limage</string>
+    <string name="encrypt_file">Chiffrer le fichier</string>
+    <string name="decrypt_file">Déchiffrer le fichier</string>
+    <string name="upload_file">Téléverser le fichier</string>
+    <string name="no_file_selected">Aucun fichier sélectionné</string>
+    <string name="key_1">Clé :</string>
+    <string name="encryption_key_1">Clé de chiffrement</string>
+    <string name="encrypt_file_2">Chiffrer le fichier</string>
+    <string name="file_encrypted_successfully">Fichier chiffré avec succès !</string>
+    <string name="upload_encrypted_file">Téléverser le fichier chiffré</string>
+    <string name="enter_key_3">Entrez la clé</string>
+    <string name="decrypt_file_1">Déchiffrer le fichier</string>
+    <string name="file_decrypted_successfully">Fichier déchiffré avec succès !</string>
+    <string name="open_file">Ouvrir le fichier</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="confirm_new_password">Confirmer le nouveau mot de passe</string>
+    <string name="change_password_1">Changer le mot de passe</string>
+
+    <string name="quick_guide">
+    <![CDATA[
+        <b>Guide rapide :</b><br><br>
+        1) Dans le menu principal, choisissez <b>Encrypt Image</b> ou <b>Decrypt Image</b>.<br>
+        2) Pour le <b>chiffrement</b> : importez une image → appuyez sur <b>Encrypt</b> → une clé secrète est générée.<br>
+        3) Vous pouvez copier, télécharger ou partager l’image chiffrée avec la clé secrète.<br>
+        4) Pour le <b>déchiffrement</b> : importez l’image chiffrée et saisissez la même clé secrète.<br>
+        5) Si l’authentification biométrique est activée dans les paramètres, elle sera requise pour le déchiffrement.<br>
+        6) L’image déchiffrée est affichée avec une <b>limite de 30 secondes</b>.<br>
+        7) Vous pouvez également enregistrer l’image déchiffrée dans le <b>dossier privé</b>.
+    ]]>
+</string>
+
+    <string name="quick_guide_text">
+    <![CDATA[
+        <b>📖 Guide rapide</b><br><br>
+        1) Dans le menu principal, choisissez <b>Encrypt</b> ou <b>Decrypt</b>.<br>
+        2) Pour le <b>chiffrement</b> → saisissez votre <b>texte</b> et un <b>mot de passe</b>.<br>
+        3) Appuyez sur <b>Encrypt</b> pour obtenir le texte chiffré.<br>
+        4) Pour le <b>déchiffrement</b> → collez le texte chiffré + le mot de passe.<br>
+        5) Si l’authentification biométrique est activée dans les paramètres, elle sera requise pour le déchiffrement.<br>
+        6) Vous pouvez également enregistrer le texte déchiffré dans le <b>dossier privé</b>.<br>
+        ⚠ Un mot de passe incorrect entraîne l’échec du déchiffrement.<br>
+    ]]>
+</string>
+
+    <string name="quick_guide_file">
+    <![CDATA[
+        <b>📂 Guide rapide :</b><br><br>
+        1) Dans le menu principal, choisissez <b>Encrypt File</b> ou <b>Decrypt File</b>.<br>
+        2) Pour le <b>chiffrement</b> : importez un fichier → entrez un mot de passe → appuyez sur <b>Encrypt</b>.<br>
+        3) Vous pouvez copier/enregistrer/partager le fichier chiffré.<br>
+        4) Pour le <b>déchiffrement</b> : importez le fichier chiffré → entrez le mot de passe → appuyez sur <b>Decrypt</b>.<br>
+        5) ⚠ Un mot de passe incorrect entraîne l’échec du déchiffrement.<br>
+        6) Si l’authentification biométrique est activée dans les paramètres, elle sera requise pour le déchiffrement.<br>
+        7) Vous pouvez également enregistrer les fichiers déchiffrés dans le <b>dossier privé</b>.<br>
+    ]]>
+</string>
+
+    <string name="type_your_email_1">Tapez votre email</string>
+    <string name="type_your_password">Tapez votre mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="not_registered_yet_sign_up">Pas encore inscrit ? Inscrivez-vous !</string>
+    <string name="sign_in_with_fingerprint">Se connecter avec lempreinte digitale</string>
+    <string name="type_your_email_2">Tapez votre email</string>
+    <string name="type_your_password_1">Tapez votre mot de passe</string>
+    <string name="retype_your_password">Retapez votre mot de passe</string>
+    <string name="sign_up">Sinscrire</string>
+    <string name="already_registered_sign_in">Déjà inscrit ? Connectez-vous !</string>
+
+
+
+
+
+
+</resources>

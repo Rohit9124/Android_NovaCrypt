@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="secure_image_sharing_platform">Secure Platform</string>
+
+    <string name="about_us_fragment">About Us Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="share_fragment">Share Fragment</string>
+    <string name="feature_title">Feature Title</string>
+    <string name="feature_description">Feature description goes here</string>
+    <string name="example_user">user@example.com</string>
+    <string name="rating_star">⭐ 4.5</string>
+    <string name="review_comment">Great app! Very secure.</string>
+    <string name="guest">Guest</string>
+
+
+    <string name="pref_use_biometric_title">Biometric Fingerprint</string>
+    <string name="pref_use_biometric_summary">When ON, the app will ask for fingerprint before performing decryption</string>
+    <string name="biometric_prompt_title">Confirm fingerprint</string>
+    <string name="biometric_prompt_subtitle">Fingerprint required to decrypt</string>
+    <string name="biometric_not_enrolled">No biometrics enrolled — please add a fingerprint in system settings</string>
+
+
+    <string name="pref_about_title">About Us</string>
+    <string name="pref_about_summary">Learn more about this app</string>
+
+
+
+    <string name="private_folder">Private Folder</string>
+    <string name="change_password">Change Password</string>
+
+    <string name="encrypt_text_1">Encrypt Text</string>
+    <string name="protect_your_messages">Protect your messages</string>
+    <string name="encrypt_image_1">Encrypt Image</string>
+    <string name="keep_your_photos_safe">Keep your photos safe</string>
+    <string name="encrypt_file_1">Encrypt File</string>
+    <string name="secure_your_documents">Secure your documents</string>
+    <string name="novacrypt_secure_your_world">NovaCrypt — Secure Your World</string>
+    <string name="update_your_password">Update your password</string>
+    <string name="encryption_statistics">Encryption Statistics</string>
+    <string name="view_total_encryptions_and_decryptions">View total encryptions and decryptions</string>
+    <string name="encrypt_text">Encrypt Text</string>
+    <string name="decrypt_text">Decrypt Text</string>
+    <string name="enter_text_to_encrypt">Enter Text To Encrypt</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="cipher_text_base64">Cipher Text (Base64)</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="paste_cipher_text_base64">Paste cipher text (Base64)</string>
+    <string name="enter_key">Enter Key</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="plain_text">Plain Text</string>
+    <string name="your_plain_output_will_appear_here">Your plain output will appear here</string>
+    <string name="add_to_private">Add to Private</string>
+    <string name="theme">Theme</string>
+    <string name="language">Language</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_rate">Rate</string>
+    <string name="nav_logout">Logout</string>
+    <string name="open_nav">open navigation</string>
+    <string name="close_nav">close navigation</string>
+    <string name="settings_title">Setting title</string>
+    <string name="encryption_key">Encryption Key</string>
+    <string name="encrypt_image">Encrypt Image</string>
+    <string name="decrypt_image">Decrypt Image</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="encrypt_image_2">Encrypt Image</string>
+    <string name="key">Key:</string>
+    <string name="enter_key_1">Enter Key</string>
+    <string name="encrypted_n_image">Encrypted : \n Image</string>
+    <string name="upload_encrypted_image">Upload Encrypted Image</string>
+    <string name="enter_key_2">Enter Key</string>
+    <string name="decrypt_image_1">Decrypt Image</string>
+    <string name="encrypt_file">Encrypt File</string>
+    <string name="decrypt_file">Decrypt File</string>
+    <string name="upload_file">Upload File</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="key_1">Key:</string>
+    <string name="encryption_key_1">Encryption Key</string>
+    <string name="encrypt_file_2">Encrypt File</string>
+    <string name="file_encrypted_successfully">File encrypted successfully!</string>
+    <string name="upload_encrypted_file">Upload Encrypted File</string>
+    <string name="enter_key_3">Enter Key</string>
+    <string name="decrypt_file_1">Decrypt File</string>
+    <string name="file_decrypted_successfully">File Decrypted Successfully!</string>
+    <string name="open_file">Open File</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change_password_1">Change Password</string>
+    <string name="quick_guide">
+    <![CDATA[
+        <b>📖 Quick Guide :</b><br><br>
+        1) From the main menu, choose <b>Encrypt Image</b> or <b>Decrypt Image</b>.<br>
+        2) For <b>Encryption</b>: upload an image → press <b>Encrypt</b> → a secret key is generated.<br>
+        3) You can Copy, download, or share the encrypted image with the secret key.<br>
+        4) For <b>Decryption</b>: upload the encrypted image and enter the same secret key.<br>
+        5) If biometric is enabled in settings, authentication is required for decryption.<br>
+        6) The decrypted image is shown with a <b>30-second viewing limit</b>.<br>
+        7) You can also save decrypted image into the <b>Private Folder</b>.
+    ]]>
+</string>
+    <string name="quick_guide_text">
+    <![CDATA[
+        <b>📖 Quick Guide :</b><br><br>
+        1) From Main Menu choose <b>Encrypt</b> or <b>Decrypt</b>.<br>
+        2) For <b>Encryption</b> → Enter your <b>text</b> and a <b>password</b>.<br>
+        3) Tap <b>Encrypt</b> to get cipher text.<br>
+        4) For <b>Decryption</b> → Paste cipher + password.<br>
+        5) If biometric is enabled in settings, authentication is required for decryption.<br>
+        6) You can also save decrypted text into the <b>Private Folder</b>.<br>
+        ⚠ Wrong password Leads to decryption fail.<br>
+    ]]>
+</string>
+    <string name="quick_guide_file">
+    <![CDATA[
+        <b>📖 Quick Guide :</b><br><br>
+        1) From Main Menu choose <b>Encrypt File</b> or <b>Decrypt File</b>.<br>
+        2) For <b>Encryption</b> : Upload file → enter password → <b>Encrypt</b>.<br>
+        3) You can Copy/Save/Share encrypted file.<br>
+        4) For <b>Decryption</b> : Upload encrypted file → enter password → <b>Decrypt</b>.<br>
+        5) ⚠ Wrong password leads to decryption fail.<br>
+        6) If biometric is enabled in settings, authentication is required for decryption.<br>
+        7) You can also save decrypted files into the <b>Private Folder</b>.
+    ]]>
+</string>
+    <string name="type_your_email_1">Type your Email</string>
+    <string name="type_your_password">Type Your Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered_yet_sign_up">Not Registered Yet , Sign Up !</string>
+    <string name="sign_in_with_fingerprint">Sign in with Fingerprint</string>
+    <string name="type_your_email_2">Type your Email</string>
+    <string name="type_your_password_1">Type Your Password</string>
+    <string name="retype_your_password">Retype Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_registered_sign_in">Already Registered? Sign In!</string>
+
+
+</resources>

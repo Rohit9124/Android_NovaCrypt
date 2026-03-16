@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667068185612",
+    "project_id": "novacrypt-rohit",
+    "storage_bucket": "novacrypt-rohit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667068185612:android:8fdf52031812b022670229",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-udAGhtiHQOGd_5cYHPgbD53AmxUXURI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

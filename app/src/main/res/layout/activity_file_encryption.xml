@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <!-- Toolbar-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="?attr/colorOnPrimary" />
+
+    <!-- Screen container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- ============== MAIN MENU ============== -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_main_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/colorBackground"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/btn_encrypt_menu"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/encrypt_file"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_decrypt_menu"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/decrypt_file"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_encrypt_menu" />
+
+            <!-- Guide card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/guideCard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_decrypt_menu">
+
+                <TextView
+                    android:id="@+id/tvGuideFile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:padding="16dp"
+                    android:text="Quick guide will appear here"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="15sp" />
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <!-- ============== ENCRYPT LAYOUT ============== -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_encrypt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/colorBackground"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <!-- Upload button -->
+            <Button
+                android:id="@+id/upload_button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/upload_file"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Uploaded file name -->
+
+            <!-- Preview for uploaded image -->
+            <TextView
+                android:id="@+id/upload_file_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="@string/no_file_selected"
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/upload_button" />
+
+            <ImageView
+                android:id="@+id/upload_file_preview"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/edittext_border"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/upload_file_name" />
+
+            <!-- Key field row with eye button -->
+
+
+            <!-- Encrypt button -->
+            <LinearLayout
+                android:id="@+id/key_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/upload_file_preview">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/key_1"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/key_field"
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edittext_border"
+                    android:hint="@string/encryption_key_1"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    app:endIconMode="password_toggle" />
+
+                <ImageButton
+                    android:id="@+id/btn_toggle_key_visibility"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="Toggle Key Visibility"
+                    app:srcCompat="@drawable/baseline_visibility_off_24" />
+
+                <ImageButton
+                    android:id="@+id/copy_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="Copy Key"
+                    app:srcCompat="@drawable/baseline_content_copy_24" />
+            </LinearLayout>
+
+            <!-- Encryption status message -->
+            <Button
+                android:id="@+id/encrypt_button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/encrypt_file_2"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/key_container" />
+
+            <!-- Action buttons -->
+
+            <TextView
+                android:id="@+id/encrypt_status_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="@string/file_encrypted_successfully"
+                android:textColor="#5EE813"
+                android:textSize="20sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/encrypt_button" />
+
+            <LinearLayout
+                android:layout_width="173dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/encrypt_status_message">
+
+                <ImageButton
+                    android:id="@+id/download_icon"
+                    android:layout_width="68dp"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:srcCompat="@drawable/_download_24" />
+
+                <ImageButton
+                    android:id="@+id/shareButton"
+                    android:layout_width="59dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="16dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:srcCompat="@drawable/share_1" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- ============== DECRYPT LAYOUT ============== -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_decrypt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/colorBackground"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <!-- Upload encrypted file -->
+
+            <Button
+                android:id="@+id/upload_encrypted_button"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/upload_encrypted_file"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Key input with eye button -->
+
+            <ImageView
+                android:id="@+id/upload_tick"
+                android:layout_width="88dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/sharp_check_circle_24"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/upload_encrypted_button" />
+
+            <LinearLayout
+                android:id="@+id/decrypt_key_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/upload_tick">
+
+                <EditText
+                    android:id="@+id/key_input"
+                    android:layout_width="220dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edittext_border"
+                    android:hint="@string/enter_key_3"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    android:textColorHint="?attr/colorOnSurfaceVariant" />
+
+                <ImageButton
+                    android:id="@+id/btn_toggle_key_input_visibility"
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="Toggle Key Visibility"
+                    app:srcCompat="@drawable/baseline_visibility_off_24" />
+            </LinearLayout>
+
+
+            <!-- Decrypt button -->
+
+            <Button
+                android:id="@+id/decrypt_button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/decrypt_file_1"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/decrypt_key_container" />
+
+            <!-- Open file -->
+            <TextView
+                android:id="@+id/decrypt_status_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/file_decrypted_successfully"
+                android:textColor="#5EE813"
+                android:textSize="20sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/decrypt_button" />
+
+            <Button
+                android:id="@+id/open_file_button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/open_file"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/decrypt_status_message" />
+
+            <!-- Add to private -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_add_to_private"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/rounded_button"
+                android:text="Add to Private"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                android:visibility="gone"
+                app:icon="@drawable/nav_private_folder"
+                app:iconGravity="start"
+                app:iconPadding="8dp"
+                app:iconTint="?attr/colorOnSurface"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/open_file_button" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+</LinearLayout>
