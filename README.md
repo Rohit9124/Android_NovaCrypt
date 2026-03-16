@@ -1,6 +1,6 @@
-SecureVault 🔐
+NovaCrypt 🔐
 
-SecureVault is an Android application designed to protect sensitive data using strong encryption techniques. The app allows users to securely encrypt and decrypt text, images, and files, ensuring privacy and protection against unauthorized access.
+NovaCrypt is an Android application designed to protect sensitive data using strong encryption techniques. The app allows users to securely encrypt and decrypt text, images, and files, ensuring privacy and protection against unauthorized access.
 
 
 ## 🚀 Features : 
